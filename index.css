@@ -110,7 +110,7 @@ hr{
 }
 .payment-popup{
     position: fixed;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
     background-color: white;
@@ -135,6 +135,7 @@ input, .payment-popup button{
     height: 71.3px;
     border-radius: 3.89px;
 }
+
 input{
     padding: 5px 10px;
     margin-bottom: 23.22px;
