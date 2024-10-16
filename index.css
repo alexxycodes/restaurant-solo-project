@@ -1,9 +1,7 @@
 body {
-    /* background-color: red; */
     font-size: 1em;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
 } 
 .container{
     /* background-color: brown; */
