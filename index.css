@@ -1,9 +1,10 @@
 body {
     font-size: 1em;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 } 
 .container{
+    margin: 0 auto;
     /* background-color: brown; */
     position: relative;
     display: flex;
