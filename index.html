@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="index.css">
+       <title>jimmy restaurants</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+               <img src="/images/restaurant-image.png" alt="the logo image of jimmys restaurant with text the best burgers and pizzas in town">
+            </header>
+            <div class="items-display" id="menu-display">
+                <!-- insert the menus from data -->
+            </div>
+            <!-- checkout div -->
+            <div class="checkout" id="checkout">
+                <h1 class="order">Your order</h1>
+                <div class="item-price" id="item-price">
+                    <div class="inner-item-price" id="inner-item-price">
+                    <!-- <h1>Bear <button class=" removebtn">remove</button></h1>
+                    <h2>$14</h2> -->
+                    </div>
+                </div>
+                <hr>
+                <div class="total-price">
+                    <h1>Total price</h1>
+                    <h2 id="total-price"></h2>
+                </div>
+                <button class="complete-order-btn" id="complete-order-btn">Complete order</button>
+            </div>
+            <div class="payment-popup" id="payment-popup">
+                <h2>Enter card details</h2>
+                <form id="formId">
+                  <input type="text" placeholder="Enter your name" name="username" autocomplete="off" required>
+                  <input type="text" placeholder="Enter card pan" 
+                  title="card pan must be 12 digits long" 
+                  inputmode="numeric" autocomplete="off" pattern="[0-9]{12}" 
+                  maxlength="12" required>
+                  <input inputmode="numeric" type="text" placeholder="Cvv" maxlength="3" pattern="[0-9]*" 
+                  autocomplete="off" required>
+                  <button type="submit">pay</button>
+                </form>
+            </div>
+            <div class="message" id="message">
+                
+            </div> 
+        </div>     
+	    <script type="module" src="index.js"></script>
+    </body>
+</html>
+
